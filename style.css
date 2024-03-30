@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+   background-color: rgb(216,217,226);
+}
+.container{
+  padding: 3rem;
+  background-color: rgb(237,240,242);
+  border-radius: 1.5rem;
+}
+.big{
+  display: block;
+  width: 270px;
+  height: 180px;
+  border-radius: 30px;
+  margin: 1rem;
+}
+.small{
+  display: inline-flex;
+  border-radius: 20px;
+  width: 85px;
+  height: 61px;
+   text-align: center;
+}
+.img-container{
+  display: flex;
+  border-radius: 1.5rem;
+}
+.small-container{
+  border-radius: 1.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  background-color: white;
+}
+span{
+  background-color: white;
+  margin: 0.1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 430;
+}
+.thispeople{
+  position: relative;
+  display: block;
+  right: 5rem;
+  font-weight: bold;
+  
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 14px;
+  position: relative;
+  left: 10rem; 
+}
+
